@@ -1,7 +1,7 @@
 # High-Performance Event-Driven System Simulator
 
 ## Overview
-This project is a high-performance event-driven simulation engine implemented in C++. It is designed to model real-time systems—such as financial exchanges or network routers—under varying workloads. 
+This project is a high-performance event-driven simulation engine implemented in C++. It is designed to model real-time systems, such as financial exchanges or network routers, under varying workloads. 
 The system manages event scheduling using a Binary Heap (Priority Queue) and includes a matching engine logic for processing simulated orders.
 
 ## Key Features
@@ -37,6 +37,7 @@ While most events process within a tight microsecond window, the outliers (tail 
 
 ### Compile
 cd cpp/src
+
 g++ main.cpp -o sim
 
 ### Execute
@@ -44,6 +45,7 @@ sim
 
 ### Visualise
 cd ../../python
+
 python plot.py
 
 

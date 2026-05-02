@@ -1,0 +1,8 @@
+*.exe
+sim
+*.o
+
+results/*.csv
+
+.vscode/
+.idea/
