@@ -13,7 +13,7 @@ The system manages event scheduling using a Binary Heap (Priority Queue) and inc
 
 - Performance Benchmarking: Automated CSV logging of execution times across increasing workloads (10k to 100k events).
 
-- Python Analytics: A visualization suite using pandas and matplotlib to analyze scaling behavior and latency distributions.
+- Python Analytics: A visualisation suite using pandas and matplotlib to analyse scaling behavior and latency distributions.
 
 ## Technologies
 - C++
@@ -30,7 +30,7 @@ This validates theoretical expectations for event-driven systems using priority 
 
 ## Latency Analysis
 
-Per-event latency is visualized using a Log-Scaled Histogram. This analysis reveals a "long-tail" distribution, typical of high-frequency systems. 
+Per-event latency is visualised using a Log-Scaled Histogram. This analysis reveals a "long-tail" distribution, typical of high-frequency systems. 
 While most events process within a tight microsecond window, the outliers (tail latency) represent the overhead of heap rebalancing and cache misses during high-contention periods.
 
 ## How to Run
